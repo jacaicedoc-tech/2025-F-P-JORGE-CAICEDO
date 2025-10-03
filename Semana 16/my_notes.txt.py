@@ -7,7 +7,7 @@
 # Creamos (o sobrescribimos si ya existe) el archivo "my_notes.txt"
 with open("my_notes.txt", "w") as file:
     # Escribimos tres líneas de notas personales
-    file.write("Primera nota: Hoy aprendi a trabajar con archivos en Python.\n")
+    file.write("Primera nota: Hoy aprendí a trabajar con archivos en Python.\n")
     file.write("Segunda nota: Los métodos write() y readline() son muy útiles.\n")
     file.write("Tercera nota: La práctica constante mejora mis habilidades.\n")
 
